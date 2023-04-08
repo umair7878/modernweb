@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    
+    overflow: hidden;
+}
+.side-header {
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+}
+
+nav {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo .h1 {
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu {
+    width: 50%;
+    text-decoration: none;
+
+}
+
+.menu ul {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+nav a,
+li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+}
+main{
+    width: 100%;
+    display: flex;
+}
+
+.main-left {
+    margin: 50px 0px;
+    width: 45%;
+}
+
+.main-left img {
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.main-right {
+    padding: 120px 0;
+    width: 45%;
+    text-align: center;
+    margin-left: 10px;
+}
+.main-right h1{
+    font-size: 36px;
+        text-transform: uppercase;
+    font-weight: 700;
+    color: #ffff;
+    letter-spacing: 2px;
+}
+.h1 {
+    color:black;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+    
+
+.main-right p {
+    color: #1d1d20;;
+    padding: 30px 0px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: Arial;
+}
+
+.main-right button {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: linear-gradient(65deg, #00c6a7, #1e4d92);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: linear-gradient(to left, #00c6a7, #1e4d92);
+}
+
+section {
+    width: 100%;
+    margin-top: 4%;
+    padding: 50px 14%;
+    justify-content: space-between;
+    background-color: lightcyan;
+}
+section hr{
+    height: 4px ;
+    border: none;
+    border-radius: 50%;
+    background-color: #00c6a7;
+}
+
+section h1 {
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #0a3d8a;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.art-row{
+    display: flex;
+    width: 100%;
+}
+
+.art-col{
+    width: 33.333%;
+    margin: 20px 5px;
+    padding: 20px;
+    color: #302f2fdd;
+    background-color: skyblue;
+    border-radius:5px;
+    cursor: pointer;
+    transition: all 0.80s;
+
+}
+.art-col:hover {
+    background-color: #074880;
+    color: #ffff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.comment {
+
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 40px 0px;
+    height: 350px;
+    text-align: center;
+    background-color: rgba(124, 219, 219, 0.9);
+}
+
+.comment h3 {
+    color: grey;
+}
+
+.comment h2 {
+    padding: 40px 0px;
+    font-weight: lighter;
+    color: white;
+}
+
+.comment input[type=text] {
+    width: 30%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-position: 5px;
+    padding-left: 5px;
+}
+footer{
+    background-color:#074880;
+    margin-top: 100px;
+}
+.foo-main{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+}
+.foo-main-left{
+    width: 58%;
+}
+.foo-main-left h1{
+    color: #c9c0b1;
+
+}
+.foo-main-right {
+    width: 22%;
+    display: flex;
+    justify-content: right;   
+}
+.foo-main-right i {
+    padding: 0 0 0 8px ;
+    font-size: 24px;
+    color: #c9c0b1;
+    cursor: pointer;
+}
+.foo-main-right i:hover{
+    color: #ffffff;
+}
+
+.foo-content{
+    width: 80%;
+    margin: auto;
+}
+.foo-row{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.foo-col{
+    
+    width: 25%;
+}
+.foo-col h4{
+    padding: 25px 0 40px 0 ;
+}
+.foo-col li{
+    margin-bottom: 12px;
+}
+.foo-col a{
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+
+.foo-pd{
+
+    margin-left:40px;
+}
+.foo-end{
+    background-color: #1f67aa;
+     color: #c9c0b1;
+}
